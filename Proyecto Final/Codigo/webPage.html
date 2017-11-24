@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/general.css">
+    <link rel="stylesheet" type="text/css" href="styles/services.css">
+    <script src="scripts/services.js"></script>
+
+    <title>World Wide</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-xs-2">
+                    <img src="images/logo.png" class="img-rounded" alt="Error cargando el logo" style="width:100%">
+                </div>
+                <div class="col-xs-6">
+                    <h1 class="mainTitle">World Wide</h1>
+                </div>
+                <div class="col-xs-4">
+                    <div class="btn-group">
+                        <a href="index.html" class="btn btn-primary">Home</a>
+                        <a href="services.html" class="btn btn-primary">Services</a>
+                        <a href="contact.html" class="btn btn-primary">Contact</a>
+                        <a href="about.html" class="btn btn-primary">About</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <fieldset class="fieldsetCentrado">
+        <legend>
+            <b>Traducción de página web</b>
+        </legend>
+        <div>
+            <h3>Para solicitar una traducción de pagina web usted deberá enviarnos los archivos .html que desee, recuerde que
+                debe brindarnos una pequeña descripción y aproximación del tamaño de la pagina junto con el archivo. Usted
+                recibirá atención personalizada una vez efectuado el pago (mediante Red Brou, Red Pagos o Giros Abitab),
+                se le enviara un mail con el monto total estimado dependiendo del tamaño de la pagina.
+            </h3>
+
+            <br>
+            <div style="border: 1px dotted black"></div>
+            <br>
+
+            <form>
+                <label for="name">Nombre/Empresa</label>
+                <input type="text" id="name" name="name" value="">
+                <label for="telf">Correo Electronico</label>
+                <input type="text" id="mail" name="mail" value="">
+                <label for="test" id="test"></label>
+                <input type="button" value="CONTRATAR SERVICIO" onclick="sendMail1();this.blur()">
+            </form>
+            <br>
+            <a href="services.html" class="btn btn-warning" role="button">Volver</a>
+        </div>
+        <br>
+    </fieldset>
+
+</body>
+
+</html>

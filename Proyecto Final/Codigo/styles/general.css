@@ -1,0 +1,10 @@
+.mainTitle {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color:  #0000ff!important;    
+    text-shadow: 0.1em 0.1em #676767;
+    text-align: center;
+}
+.fieldsetCentrado{
+    text-align: center;
+}
